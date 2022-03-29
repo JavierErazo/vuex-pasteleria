@@ -1,0 +1,164 @@
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#logo{
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    padding: 25px;
+}
+
+
+#nav_barra{
+    border: 1px solid black;
+    background-color: #19408f;
+    border-radius: 5px;
+    
+}
+
+#nav_lista{
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 20px;
+    padding: 10px;
+}
+
+#nav_lista > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav_lista > li > a:visited{
+    color: white;
+}
+
+#nav_lista > li > a:hover{
+    color: #ff95cb;
+}
+
+.listaProductos{
+    margin: 0 auto;
+    max-width: 700px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.listaProductosRestantes{
+    margin: 0 auto;
+    max-width: 900px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+footer{
+
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    row-gap: 8px;
+    color: white;
+    background-color: #19408f;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.producto{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productoRestante{
+    justify-content: space-evenly;
+    border: 1px solid white ;
+}
+
+.productoRestante > div{
+    width: 300px;
+    color: white;
+    background-color: #497adc;
+    padding: 10px;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexboxCol{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    max-width: 700px;
+    margin: 30px auto;
+    background: white;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+.labelText{
+    color: #aaa;
+    display: inline-block;
+    margin: 25px 0 15px;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.inputText{
+    display: block;
+    padding: 10px 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+}
+
+.labelBox{
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.inputBox{
+    margin-left: 25px;
+}
+
+.precioSpan{
+    font-size: 14px;
+    float: right;
+}
+
+textarea{
+    width: 100%;
+    height: 120px;
+    display: block;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.formButton{
+    
+    border-radius: 10px;
+    background-color: #19408f;
+    font-size: 18px;
+    padding: 12px;
+    margin: 12px;
+    color: white;
+}
